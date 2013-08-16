@@ -1,0 +1,25 @@
+// ====================================================================
+// Layout styles, should only contain rules relating to the structure
+// ====================================================================
+* {
+ // @include bs;
+}
+body {
+  max-width: 1440px;
+  margin: auto;
+  background-color: $color9;
+}
+
+header[role="banner"],footer[role="contentinfo"] {
+  width: 100%;
+  display: block;
+}
+nav[role="navigation"] {
+  width: 10%;
+  float: right;
+}
+.main-content {
+}
+footer[role="contentinfo"] {
+  clear: both;
+}
