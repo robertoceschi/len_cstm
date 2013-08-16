@@ -3,22 +3,28 @@
 // ====================================================================
 * {
  // @include bs;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+
 }
 body {
   max-width: 1440px;
   margin: auto;
-  background-color: $color9;
 }
 
 header[role="banner"],footer[role="contentinfo"] {
+  background-color: $color1;
   width: 100%;
   display: block;
+  height: 50px;
+  position: fixed;
 }
 nav[role="navigation"] {
-  width: 10%;
-  float: right;
+  width: 30%;
+  float: left;
+  margin-top: 5%;
 }
 .main-content {
+
 }
 footer[role="contentinfo"] {
   clear: both;
